@@ -34,3 +34,5 @@ antidote load
 
 
 eval "$(zoxide init zsh)"
+
+export PATH="/usr/local/opt/llvm/bin:$PATH"

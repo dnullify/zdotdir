@@ -3,6 +3,10 @@
 # .aliases - Set whatever shell aliases you want.
 #
 
+alias py=python3
+alias oncalld='python3 /Users/snag/code/oncall/oncall-dash/oncall_dash.py'
+alias caff='caffeinate -dt 18000'
+
 # single character aliases - be sparing!
 alias _=sudo
 alias l=ls
@@ -25,8 +29,8 @@ alias tarls="tar -tvf"
 alias untar="tar -xf"
 
 # find
-alias fd='find . -type d -name'
-alias ff='find . -type f -name'
+# alias fd='find . -type d -name'
+# alias ff='find . -type f -name'
 
 # url encode/decode
 alias urldecode='python3 -c "import sys, urllib.parse as ul; \
